@@ -5,7 +5,6 @@
  */
 package javaapplication75;
 
-import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -68,11 +67,11 @@ public class Ejemplo31 {
                 bandera = false;
             }
         }
-        System.out.println("Resultados");
+        System.out.println("Notas...\nRangos");
         // Utilizacion del ciclo repetitivo for
         for (int i = 0; i < notas.length; i++) {
             // Impresion de los rangos con las notas
-            System.out.printf("Notas %s - %d\n", rangos[i], notas[i]);
+            System.out.printf("%s - %d\n", rangos[i], notas[i]);
         }
     }
 }
