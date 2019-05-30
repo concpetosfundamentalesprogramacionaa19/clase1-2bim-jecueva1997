@@ -21,7 +21,7 @@ public class Ejemplo3 {
         int[] datos = new int[3];
         String[] rangos = {"0-100", "101-199", "200-adelante"};
         
-        int cantidad = 1000;
+        int cantidad = 199;
         if(cantidad <=100){
             datos[0] = datos[0] + 1;
         }else{
@@ -37,8 +37,5 @@ public class Ejemplo3 {
         for(int i = 0; i<datos.length; i++){
             System.out.printf("Ventas en %s - %d\n", rangos[i], datos[i]);
         }
-        
-
-
     }
 }
